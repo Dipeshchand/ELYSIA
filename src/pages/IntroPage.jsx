@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../assets/images/covers.jpg";
+import img1 from "../assets/images/cover.jpg";
 import img2 from "../assets/images/mains.jpg";
 import img3 from "../assets/images/main3.jpg";
 import img4 from "../assets/images/main-4.jpg";
