@@ -1,6 +1,6 @@
 import React from "react";
 import cover1 from "../../assets/images/side2S.jpg"
-import cover2 from  "../../assets/images/main4S.jpg"
+import cover2 from  "../../assets/images/main4s.jpg"
 import cover3 from "../../assets/images/main3.jpg"
 export default function CapturedMoments() {
   const couples = [
