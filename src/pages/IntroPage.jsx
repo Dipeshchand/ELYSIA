@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../assets/images/coverS.jpg";
-import img2 from "../assets/images/mainS.jpg";
+import img1 from "../assets/images/covers.jpg";
+import img2 from "../assets/images/mains.jpg";
 import img3 from "../assets/images/main3.jpg";
 import img4 from "../assets/images/main-4.jpg";
 import img5 from "../assets/images/hero-bg.png";
@@ -10,9 +10,9 @@ import img7 from "../assets/images/seventh.jpg";
 //
 import img8 from "../assets/images/story-img-1.jpg";
 import img9 from "../assets/images/first.jpg";
-import img10 from "../assets/images/Second.jpg";
-import img11 from "../assets/images/Third.jpg";
-import img12 from "../assets/images/Fourth.jpg";
+import img10 from "../assets/images/second.jpg";
+import img11 from "../assets/images/third.jpg";
+import img12 from "../assets/images/fourth.jpg";
 import img13 from "../assets/images/story-img-2.jpg";
 import img14 from "../assets/images/sixth.jpg";
 
