@@ -1,5 +1,5 @@
 import React from "react";
-import cover1 from "../../assets/images/side2S.jpg"
+import cover1 from "../../assets/images/side2s.jpg"
 import cover2 from  "../../assets/images/main-4.jpg"
 import cover3 from "../../assets/images/main3.jpg"
 export default function CapturedMoments() {
