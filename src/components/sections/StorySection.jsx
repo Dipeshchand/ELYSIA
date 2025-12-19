@@ -1,5 +1,5 @@
-import img1 from "../../assets/images/side2S.jpg";
-import img2 from "../../assets/images/side1S.jpg";
+import img1 from "../../assets/images/side2s.jpg";
+import img2 from "../../assets/images/side1s.jpg";
 
 export default function StorySection() {
   return (
