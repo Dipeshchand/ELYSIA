@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import logo from "../../assets/images/logoS.jpg";
+import logo from "../../assets/images/logoedit.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,8 +11,8 @@ export default function Navbar() {
   flex items-center justify-between">
       
       {/* Logo */}
-      <h1 className="text-2xl md:text-4xl font-bold font-[Cormorant_Garamond] tracking-wide">
-         ELYSIA
+      <h1 className="text-4xl md:text-4xl text-green-900 font-bold font-[Cormorant_Garamond] tracking-wide">
+        <img className="h-30" src={logo}/>
       </h1>
       {/* font-serif font that changed */}
 
@@ -27,7 +27,7 @@ export default function Navbar() {
 
       {/* Mobile Hamburger */}
       <button
-        className="md:hidden text-3xl font-bold"
+        className="md:hidden mt-15 text-3xl font-bold"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         {menuOpen ? "✖" : "☰"}
@@ -38,7 +38,7 @@ export default function Navbar() {
   className={`absolute left-0 w-full bg-white/70 backdrop-blur-xl 
     md:hidden transition-all duration-500 ease-out overflow-hidden
     rounded-b-2xl border-b border-white/40
-    ${menuOpen ? "max-h-40 opacity-100 top-15" : "max-h-0 opacity-0 top-12"}
+    ${menuOpen ? "max-h-40 opacity-100 top-36" : "max-h-0 opacity-0 top-12"}
   `}
 >
   <ul className="flex flex-row flex-wrap justify-center font-[Cormorant_Garamond]   items-center gap-5 text-lg font-medium py-4 px-5">

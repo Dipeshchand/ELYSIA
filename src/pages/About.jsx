@@ -1,15 +1,14 @@
 import cover1 from "../assets/images/cover1.png";
 import cover3 from "../assets/images/teamS.jpeg";
 import cover4 from "../assets/images/teamS1.jpeg";
+import boss from "../assets/images/boss.jpeg";
 
 export default function About() {
   return (
     <section className="w-full bg-[#F7F4ED] py-16 md:py-20 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto text-center">
-        
         {/* Image + Text */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center mt-10">
-          
           {/* Image 1 */}
           <div className="overflow-hidden rounded-3xl shadow-md mt-18">
             <img
@@ -28,10 +27,10 @@ export default function About() {
             <p className="text-gray-700 leading-relaxed text-base sm:text-lg mb-8">
               A luxury event planner with a passion for creating seamless,
               elegant celebrations. Deeply inspired by the richness of Indian
-              culture and traditions, we design and execute thoughtfully
-              curated events, focusing on meaningful details, refined
-              aesthetics, and flawless coordination — turning every occasion
-              into an unforgettable experience.
+              culture and traditions, we design and execute thoughtfully curated
+              events, focusing on meaningful details, refined aesthetics, and
+              flawless coordination — turning every occasion into an
+              unforgettable experience.
             </p>
 
             {/* Image 2 */}
@@ -51,6 +50,24 @@ export default function About() {
             </p>
           </div>
         </div>
+
+        <div className="overflow-hidden rounded-3xl shadow-md mt-18">
+          <img
+            src={boss}
+            alt="Elysia Event Planner"
+            className="
+      w-full
+      h-[450px]        /* mobile */
+      sm:h-[300px]     /* small screens */
+      md:h-[400px]     /* tablets */
+      lg:h-[1200px]     /* desktop */
+      object-cover
+      object-center
+    "
+          />
+        </div>
+        <p className="font-serif italic mt-5 text-xl">Managing directors & Event planner</p>
+        <p className="font-serif italic text-3xl">Sunil SL</p>
 
         {/* Quote */}
         <p

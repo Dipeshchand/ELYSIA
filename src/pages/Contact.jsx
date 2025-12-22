@@ -1,39 +1,19 @@
-// import React from "react";
-// import cover from "../assets/images/cover.jpg";
-// function Contact() {
-//   return (
-//     <nav>
-//       <div>
-//         <img
-//           src={cover}
-//           alt=""
-//           className="
-//       w-full         
-//       md:h-screen       
-//       h-[50vh]         
-//       object-cover
-//     "
-//       />
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Contact;
 
 
 import cover from "../assets/images/cover.jpg";
+import aboutus from "../assets/images/aboutus.jpg";
 
 export default function Contact() {
   return (
-    <div className="w-full bg-[#F6F3EC]">
+    <div className="w-full bg-[#F7F4ED]">
 
       {/* TOP COVER IMAGE */}
       <div>
         <img
-          src={cover}
+          src={aboutus}
           alt="cover"
           className="
+            mt-35
             w-full
             h-[50vh]       /* Mobile → half screen */
             md:h-screen    /* Desktop → full screen */
@@ -59,7 +39,7 @@ export default function Contact() {
 
         {/* EMAIL + PHONE */}
         <p className="text-center text-gray-900 font-medium">
-          elysia@gmail.com
+          elysiaevents45@gmail.com
         </p>
         <p className="text-center text-gray-900 font-medium mb-10">
           +91 8296632740

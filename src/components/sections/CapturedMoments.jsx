@@ -2,6 +2,7 @@ import React from "react";
 import cover1 from "../../assets/images/side2s.jpg"
 import cover2 from  "../../assets/images/main-4.jpg"
 import cover3 from "../../assets/images/main3.jpg"
+import cover4 from "../../assets/images/corporate.jpg"
 export default function CapturedMoments() {
   const couples = [
     { 
@@ -9,6 +10,12 @@ export default function CapturedMoments() {
       name: "Akhilesh & Akshaya", 
       desc: "A thoughtfully planned proposal event, curated to create a meaningful and unforgettable experience.",
       image: cover1 
+    },
+    {
+      id:4,
+      name:"Corporate Event",
+      desc:"Americano with Aamir",
+      image:cover4
     },
     { 
       id: 2, 
